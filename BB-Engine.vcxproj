@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\BBEngine.h" />
     <ClInclude Include="src\BBEngine\Application.h" />
+    <ClInclude Include="src\BBEngine.h" />
     <ClInclude Include="src\BBEngine\Core.h" />
     <ClInclude Include="src\BBEngine\EntryPoint.h" />
   </ItemGroup>
@@ -68,6 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BB_PLATFORM_WINDOWNS;BB_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Vendor\SPDLOG\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BB_PLATFORM_WINDOWNS;BB_BUILD_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Vendor\SPDLOG\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

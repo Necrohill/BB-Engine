@@ -21,10 +21,10 @@
     <ClInclude Include="src\BBEngine\Application.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="src\BBEngine.h">
+    <ClInclude Include="src\BBEngine\EntryPoint.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="src\BBEngine\EntryPoint.h">
+    <ClInclude Include="src\BBEngine.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
