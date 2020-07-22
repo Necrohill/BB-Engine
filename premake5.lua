@@ -19,6 +19,9 @@ project "BBEngine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 	
+	pchheader "BBPCH.h"
+	pchsource "BBEngine/src/BBPCH.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace BBEngine {
 	class BBEngine_API MouseMovedEvent : public Event {
 	public:

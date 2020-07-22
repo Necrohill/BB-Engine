@@ -1,6 +1,7 @@
+#include "BBPCH.h"
 #include "Application.h"
 #include "BBEngine\Events\ApplicationEvent.h"
-#include "BBEngine/Log.h"
+#include "BBEngine\Log.h"
 
 namespace BBEngine {
 
@@ -15,7 +16,7 @@ namespace BBEngine {
 	void Application::Run()
 	{
 		WindowResiceEvent e(1280, 720);
-		BBEngine_Info(e);
+		BBEngine_Trace(e);
 
 		while (true);
 	}

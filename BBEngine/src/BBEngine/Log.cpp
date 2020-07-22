@@ -1,3 +1,4 @@
+#include "BBPCH.h"
 #include "Log.h"
 
 namespace BBEngine{

@@ -1,9 +1,7 @@
 #pragma once
+#include "BBPCH.h"
 
 #include "BBEngine/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace BBEngine {
 	enum class EventType {
