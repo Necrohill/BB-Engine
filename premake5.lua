@@ -27,7 +27,8 @@ project "BBEngine"
 	
 	includedirs
 	{
-		"%{prj.name}/Vendor/SPDLOG/include"
+		"%{prj.name}/Vendor/SPDLOG/include",
+		"%{prj.name}/src"
 	}
 	
 	filter "system:windows"

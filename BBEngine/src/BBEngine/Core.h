@@ -9,3 +9,5 @@
 #else
 	#error Only Windows Support
 #endif // BB_PLATFORM_WINDOWNS
+
+#define BIT(x) (1 << x)

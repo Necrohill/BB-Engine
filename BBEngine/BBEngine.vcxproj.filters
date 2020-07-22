@@ -4,6 +4,9 @@
     <Filter Include="BBEngine">
       <UniqueIdentifier>{DF9824E6-CB65-7FF1-F47E-6D99E0AAB47F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BBEngine\Events">
+      <UniqueIdentifier>{E3B3D7C4-4F3F-4589-5850-C87DC45AA189}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BBEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\BBEngine\EntryPoint.h">
       <Filter>BBEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BBEngine\Events\ApplicationEvent.h">
+      <Filter>BBEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BBEngine\Events\Event.h">
+      <Filter>BBEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BBEngine\Events\KeyEvent.h">
+      <Filter>BBEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BBEngine\Events\MouseEvent.h">
+      <Filter>BBEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\BBEngine\Log.h">
       <Filter>BBEngine</Filter>
